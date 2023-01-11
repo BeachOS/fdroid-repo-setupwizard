@@ -1,0 +1,27 @@
+/archive/
+/binary_transparency/
+/build/*/
+/build/.fdroidvcs-*
+/builder/
+/git-mirror/
+/repo/
+/stats/data/
+/stats/logs/
+/stats/publishsigkeys.jar
+/tmp/
+/unsigned/
+
+
+*.apk
+*.jks
+*.p12
+*~
+.fdroid*
+__pycache__
+
+# These are managed by plugins/fdroid_ersatz-update.py
+/metadata/*/*/changelogs/*.txt
+/metadata/*/*/description.txt
+/metadata/*/*/featureGraphic.*
+/metadata/*/*/icon.png
+/metadata/*/*/summary.txt

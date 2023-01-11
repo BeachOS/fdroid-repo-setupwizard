@@ -1,0 +1,5 @@
+[gerrit]
+host=review.beachos.org
+port=29418
+project=BeachOS/fdroid-repo-setupwizard
+defaultbranch=main
